@@ -8,7 +8,7 @@ numérico para sistema de notas em caracteres tipo A B C
 * entre 60 - 69   -   D
 * menor que 60    -   F*/
 
-let notasNumericas = [90]
+let notasNumericas = [90, 67,34,22]
 
 function converterNotas(notas){
     let notasConvertidas = []
