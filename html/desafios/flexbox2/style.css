@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body { background-color: darkcyan;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  
+
+}
+
+aside , main{
+    border: 1px solid red;
+    height: 95vh;
+    background-color: whitesmoke;
+}
+
+aside{
+    flex-basis: 25%;
+}
+
+main{
+    flex: 1;
+}

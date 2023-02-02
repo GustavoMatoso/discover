@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+
+
+header{    
+    border: 2px solid red;
+    background-color: aliceblue;
+    padding: 4rem;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    gap: .8rem;
+    list-style: none;
+    align-items: center;
+    
+}
+
+ul li:last-child {
+    background-color: black;
+    color: white;
+    padding:.8rem;
+    border-radius:.8rem;
+}
+
+
+
