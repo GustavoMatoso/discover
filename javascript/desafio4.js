@@ -97,3 +97,5 @@ function getBooksPerAuthor(author){
 getNumberOfBooksPerCategory()
 countAuthors()
 getBooksPerAuthor('Augusto Cury')
+console.log(__dirname)
+console.log(__filename)
