@@ -2,6 +2,18 @@
 
 //2: quando apertar ESC, o sistema deve inserir a classe invisible novamente.
 
-const abrir = document.querySelector('openModal');
+const openModalButton = document.getElementById('openModal')
 
-abrir.addEventListener('click', () => {abrir.classList.remove('bg-purple-700')});
+const modalWrapper = document.querySelector('.modal-wrapper')
+
+openModalButton.onclick = function(){
+    modalWrapper.classList.remove('invisible')
+}
+
+document.addEventListener('keydown', function(event){
+    if(event.key === "Escape"){
+        modalWrapper.classList.add('invisible')
+    }
+})
+    
+
